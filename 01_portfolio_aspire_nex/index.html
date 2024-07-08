@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/67ed61919c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Sneha's Portfolio</div>
+      <div class="right">
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#my-work">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple"><br>Sneha Modi</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="images/user1.png" alt="Background Image">
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+
+          <div class="about-col-1">
+
+            <img src="images/user2.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+
+
+            <p>
+              Hi, I'm Sneha Modi, a web developer passionate about creating dynamic and user-friendly applications. I'm pursuing a B.Tech in Ceramic Engineering at IIT BHU, with a strong foundation in C++, JavaScript, React.js, Node.js, and MongoDB.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('projects')">Interests</p>
+            </div>
+            <!-- skills -->
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>Programming Skills:</span> <br>C++, HTML5, Tailwind CSS, JavaScript, React.js, Express (Node.js), MongoDB<br></li>
+                <li><span>Technical Skills:</span><br>Data Structures, Algorithms, OOPs, Operating System- Linux, Software Design</li>
+                <li><span>Tools:</span> <br>Git and GitHub, VS Code, Adobe Photoshop, Adobe Premiere Pro, Figma</li>
+              </ul>
+            </div>
+            <!-- education -->
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>2022-2026</span> <br>B.Tech in Ceramic Engineering at Indian Institute of Technology Varanasi(BHU)<br>CGPA - 8.16</li>
+                <li><span>2020-2022</span> <br>Secondary Education from Success Higher Secondary School<br>XII(MPBSE) - 92.10%</li>
+                <li><span>2007-2020</span> <br>Primary Education from Smt. Kamala Saklecha Gyan Mandir<br>X(CBSE) - 94.20% </li>
+              </ul>
+            </div>
+            <!-- projects (interests) -->
+            <div class="tab-content" id="projects">
+              <ul>
+                <li><span>Photography</span> <br> I am passionate about camera handling, photo editing and photo manipulation <br>Served as the Joint Secretary of the Photography Club at IIT BHU</li>
+                <li><span>Creative Writing</span> <br>I am a keen reader with a love for poetry and a special interest in Hindi literature</li>
+                <li><span>Public Speaking</span> <br>Since my school days, I have participated in various debate, extempore, and declamation competitions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full-Stack Development</h2>
+            <p>I offer comprehensive fullstack development services, encompassing both front-end and back-end solutions to create robust and dynamic web applications. With expertise in technologies like HTML, CSS, JavaScript, and server-side languages such as Node.js and Python, I can develop seamless applications that ensure smooth interaction between the user interface and the server. My holistic approach allows me to manage the entire development process efficiently, delivering fully functional and scalable web solutions tailored to your needs.</p>
+            <a href="https://en.wikipedia.org/wiki/Full_stack">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>My web design services focus on crafting visually appealing and user-centric websites. By leveraging tools like Adobe Photoshop, Sketch, and Figma, I create layouts, color schemes, typography, and imagery that provide an engaging and intuitive user experience. I prioritize user experience (UX) principles to design interfaces that are not only aesthetically pleasing but also easy to navigate and accessible to all users. Let me help you make a strong first impression with a beautifully designed website that stands out.</p>
+            <a href="https://www.interaction-design.org/literature/topics/web-design">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Software Development</h2>
+            <p>I offer professional software development services to deliver robust and efficient solutions tailored to your needs. My expertise includes C++ and Data Structures and Algorithms (DSA), ensuring your software is high-performance and scalable. With a focus on clear communication and meticulous attention to detail, I create reliable, maintainable, and optimized code that aligns with your vision and drives your business forward.</p>
+            <a href="https://www.geeksforgeeks.org/what-is-software-development/">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="my-work">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work1">
+            <img src="images/order.png" alt="">
+            <div class="layer">
+              <h3>Food Ordering App - BiteRush</h3>
+              <p>Built a full-stack food ordering application that offers users a seamless experience to browse, select, and order food items. </p>
+              <a href="https://github.com/Snehamodi8910/Biterush">GitHub Link</a>
+            </div>
+          </div>
+          <div class="work2">
+            <img src="images/rssfeed-demo-app.png" alt="">
+            <div class="layer">
+              <h3>RSS Feed App - FeedX</h3>
+              <p>Developed a solution to manage and deliver RSS feeds, enabling users to access and aggregate content from various sources via a RESTful API.</p>
+             <a href="https://github.com/Snehamodi8910/RSS-FEED">GitHub Link</a>
+
+            </div>
+          </div>
+          <div class="work3">
+            <img src="images/what-is-fitness-app-testing.png" alt="">
+            <div class="layer">
+              <h3>Fitness App - FitFlow</h3>
+              <p>The Fitness App is a React-based platform designed to assist fitness enthusiasts in optimizing their workouts with personalized training and intuitive features.</p>
+             <a href="https://github.com/Snehamodi8910/FitFlow">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+             <h1 class="subtitle">Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>  snehamodi8910@gmail.com</p>
+             <p><i class="fa-solid fa-square-phone"></i>  8305301739</p>
+             <div class="social-icons">
+              <a href="https://github.com/Snehamodi8910"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/sneha-modi-064336258/"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://www.instagram.com/snehamodi8910/"><i class="fa-brands fa-instagram"></i></a>
+
+             <a href="https://x.com/SnehaModi8910"><i class="fa-brands fa-square-twitter"></i></a>
+             </div>
+             <a href="resume/sneha_google_resume_1 (1).pdf" class="btn btn2" download>Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email">
+              <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright <i class="fa-regular fa-copyright"></i> Sneha Modi</p>
+        </div>
+        <!-- Add contact form or contact information here -->
+
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'Content Writer', 'Photographer', 'Public Speaker'],
+      typeSpeed: 50,
+      loop: true
+    });
+
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+
+</body>
+<
