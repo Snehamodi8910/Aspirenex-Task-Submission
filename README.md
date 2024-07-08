@@ -1,14 +1,3 @@
-To ensure that screenshots and videos are visible directly in your README file on GitHub, you need to:
-
-1. **Ensure Files are in the Correct Location**: Make sure the images and videos are uploaded to your repository in the specified paths.
-
-2. **Use Correct Relative Paths**: The paths you mention in your README should be relative to the root of the repository.
-
-3. **Ensure Video Compatibility**: Note that GitHub doesn't support video playback directly from the repository. You should provide a link to download or watch the video externally.
-
-Here is the revised README:
-
----
 
 # Submission of Task for Aspire Nex
 
@@ -29,25 +18,49 @@ ProjectPilot is a web-based project management application designed to help team
 - **Dark Mode:** Switch between light and dark themes for a comfortable user experience.
 
 ### Demo Video
-Watch the demo video [here](./public/project%20management%20app.mp4).
+Watch the demo video [here]().
 
-### Website Look
 
-**Light Mode**
-![Light Mode](/public/Screenshot%202024-07-09%20000547.png)
 
-**Dark Mode**
-![Dark Mode](/public/night%20mode.png)
+___________________________________________________________________________________________________________________________________________________________
 
-### Project Creation
-![Project Creation](/public/add%20project.png)
+## README
 
-### Task Creation
-![Task Creation](/public/add%20task.png)
+### Project Title
+**Sneha Modi's Personal Portfolio**
 
-## Getting Started
+Watch the demo video [here](https://www.dropbox.com/scl/fi/fpizlj14qutewtynj4ngg/portfolio.mp4?rlkey=vh8fvlip4vjo10uhyihs4iejw&st=3aqn8lho&dl=0).
 
-### Prerequisites
+### Description
+This project is a personal portfolio website for Sneha Modi, showcasing her skills, education, projects, and services. The website is built using HTML, CSS, and JavaScript and is fully responsive to provide a seamless experience across different devices.
 
-- Node.js (v14.x or later)
-- npm (v
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Contact](#contact)
+### Usage
+The website consists of several sections:
+- **Home:** Introduction and a brief description.
+- **About:** Information about Sneha, including skills, education, and interests.
+- **Services:** Details of the services offered.
+- **Projects:** A showcase of notable projects with links to their GitHub repositories.
+- **Contact:** Contact information and a form to get in touch with Sneha.
+
+### Features
+- **Responsive Design:** Ensures a seamless experience on various devices.
+- **Smooth Scrolling:** Enhances navigation within the single-page layout.
+- **Typed.js Integration:** Displays dynamic text on the home section.
+- **Interactive Tabs:** Switches between skills, education, and interests in the About section.
+
+### Technologies Used
+- **HTML:** Structure of the web pages.
+- **CSS:** Styling and layout (including external fonts and icons).
+- **JavaScript:** Interactivity and dynamic content.
+- **Fonts and Icons:**
+  - [Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap)
+  - [Font Awesome](https://kit.fontawesome.com/67ed61919c.js)
+
+
