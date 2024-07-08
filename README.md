@@ -8,7 +8,7 @@ This submission includes two web applications: **ProjectPilot** and a **Portfoli
 
 ProjectPilot is a web-based project management application designed to help teams organize, track, and manage their projects efficiently. It provides a user-friendly interface to create, update, and monitor tasks across different projects.
 
-### Features
+## Features
 
 - **Project Boards:** Create and manage multiple project boards.
 - **Task Management:** Add, edit, and organize tasks within projects.
@@ -18,38 +18,109 @@ ProjectPilot is a web-based project management application designed to help team
 - **Customizable Workflow:** Add custom columns to suit your project's workflow.
 - **Dark Mode:** Switch between light and dark themes for a comfortable user experience.
 
+## video link
+Watch the demo video [here](./public/project%20management%20app.mp4).
+
+### Website Look
+**Light Mode**
+![Project Creation](/02_project-management-app/public/Screenshot%202024-07-09%20000547.png)
+**Dark Mode**
+![Project Creation](/02_project-management-app/public/night%20mode.png)
+
+### Project Creation
+
+![Project Creation](/02_project-management-app/public/add%20project.png)
+_Create a new project with custom columns and team members._
+
+### Task Creation
+![Project Creation](/02_project-management-app/public/add%20task.png)
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14.x or later)
+- npm (v6.x or later) or yarn (v1.x or later)
+
+
+## Usage
+
+1. **Create a New Project:** Click on "+ Create New Project" to open the project creation form. Fill in the project details, add team members, and define custom columns if needed.
+2. **Add Tasks:** Within a project, click on "+ Add New Task" to create tasks. Organize tasks into columns (e.g., Todo, Doing, Done).
+3. **Manage Tasks:** Drag and drop tasks between columns to update their status. Click on tasks to edit details or add subtasks.
+4. **Collaborate:** Invite team members to projects and assign tasks to them.
+
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+____________________________________________________________________________________________________________________________________________________________________
 ## Portfolio Website
 
-This Portfolio Website is a personal web application showcasing professional experience, projects, skills, and contact information. It is designed to highlight personal branding and professional achievements.
+### Project Title
+**Sneha Modi's Personal Portfolio**
+
+Watch the demo video [here](./images/portfolio.mp4).
+
+### Description
+This project is a personal portfolio website for Sneha Modi, showcasing her skills, education, projects, and services. The website is built using HTML, CSS, and JavaScript and is fully responsive to provide a seamless experience across different devices.
+
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Contact](#contact)
+
+### Installation
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Snehamodi8910/portfolio.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd portfolio
+   ```
+3. **Open `index.html` in your preferred web browser:**
+   ```bash
+   open index.html
+   ```
+
+### Usage
+The website consists of several sections:
+- **Home:** Introduction and a brief description.
+- **About:** Information about Sneha, including skills, education, and interests.
+- **Services:** Details of the services offered.
+- **Projects:** A showcase of notable projects with links to their GitHub repositories.
+- **Contact:** Contact information and a form to get in touch with Sneha.
 
 ### Features
+- **Responsive Design:** Ensures a seamless experience on various devices.
+- **Smooth Scrolling:** Enhances navigation within the single-page layout.
+- **Typed.js Integration:** Displays dynamic text on the home section.
+- **Interactive Tabs:** Switches between skills, education, and interests in the About section.
 
-- **Home Page:** Introduction and overview of professional profile.
-- **About Section:** Detailed background, including education and work experience.
-- **Projects:** Showcase of various projects with descriptions and links.
-- **Skills:** Display of technical and soft skills.
-- **Contact Form:** Easy-to-use form for visitors to get in touch.
-- **Responsive Design:** Ensures optimal viewing experience across all devices.
+### Technologies Used
+- **HTML:** Structure of the web pages.
+- **CSS:** Styling and layout (including external fonts and icons).
+- **JavaScript:** Interactivity and dynamic content.
+- **Fonts and Icons:**
+  - [Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap)
+  - [Font Awesome](https://kit.fontawesome.com/67ed61919c.js)
 
-## Installation and Usage
+### License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### ProjectPilot
+#
 
-1. Clone the repository.
-2. Install dependencies using npm or yarn.
-3. Start the development server to view the application locally.
-4. Build the project for production deployment.
-
-### Portfolio Website
-
-1. Clone the repository.
-2. Install dependencies using npm or yarn.
-3. Start the development server to view the portfolio locally.
-4. Deploy the website to a hosting service of your choice.
-
-## Conclusion
-
-Both **ProjectPilot** and the **Portfolio Website** demonstrate key web development skills, including project management functionality, responsive design, and personal branding. These applications are designed to provide practical solutions and showcase professional competencies.
 
 ---
+
 
